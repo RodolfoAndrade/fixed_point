@@ -2,8 +2,8 @@
 
 int main ()
 {
-    FixedPoint a(5,12);
-    FixedPoint b(1,12);
+    FixedPoint a(5);
+    FixedPoint b(1);
     FixedPoint c;
 
     b = a + ((b/a)*(b/a));
